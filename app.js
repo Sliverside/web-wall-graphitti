@@ -8,7 +8,7 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 
-// create the single instance of socket.io that will be shared across all applications //
+// create the single instance of socket.io that will be shared across all applications t//
 global.io = require('socket.io')(http);
 
 app.set('port', process.env.PORT || 3000);
