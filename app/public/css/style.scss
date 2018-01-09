@@ -1,7 +1,10 @@
 @font-face {
   font-family: 'Dolce Vita';
   font-style: normal;
-  src: url("/fonts/Dolce_Vita.ttf"); }
+  src: url("/fonts/Dolce_Vita.ttf");
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -11,33 +14,39 @@ html, body {
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  user-select: none; }
+  user-select: none;
+}
 
 a {
-  color: #e8268d; }
+  color: #e8268d;
+}
 
 #wrap {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+}
 
 #header {
   width: 100%;
   position: absolute;
   font-family: 'Dolce Vita';
-  letter-spacing: 1px; }
-  #header .content {
+  letter-spacing: 1px;
+  .content {
     top: 0;
     position: absolute;
     left: 40px;
     text-align: left;
-    width: auto; }
+    width: auto;
+  }
+}
 
 #main {
   overflow: hidden;
   width: calc(100% - 80px);
   height: calc(100% - 80px);
   border: 40px solid #cccccc;
-  background-color: #e2e2e2; }
+  background-color: #e2e2e2;
+}
 
 #cnvs {
   background-color: #fff;
@@ -45,11 +54,11 @@ a {
   position: relative;
   top: calc(50vh - 1500px);
   left: calc(50vw - 1500px);
-  cursor: crosshair; }
+  cursor: crosshair;
+}
 
 #gui {
   position: fixed;
   top: 20px;
-  right: 40px; }
-
-/*# sourceMappingURL=style.css.map */
+  right: 40px;
+}

@@ -1,4 +1,3 @@
-
 require('./modules/doodle-socket');
 
 module.exports = function(app) {
